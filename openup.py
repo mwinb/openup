@@ -20,5 +20,5 @@ def programOpen(progToRun):
     elif platform.system() == "Linux":
         subprocess.Popen(["xdg-open", progToRun])
     else:
-        subprocess.Popen(["open", path])
+        subprocess.Popen(["open", progToRun])
 main()
